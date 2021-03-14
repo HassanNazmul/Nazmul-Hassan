@@ -112,7 +112,7 @@ body {
 .home .content-left h2 {
     font-size: 56px;
     font-weight: 900;
-    line-height: 100px;
+    /*line-height: 100px;*/
     background: -webkit-linear-gradient(right, #d61a5e, #ff8c05);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -130,13 +130,18 @@ body {
     border-radius: 50%;
 }
 
+.home .content-right .profile-img-mob img {
+    display: none;
+}
+
 .home .content-right .profile-img {
     filter: drop-shadow(-3px 17px 8px rgba(0, 0, 0, 0.3));
 }
 
-.about {
-    padding: 40px;
-}
+/*  ABOUT   */
+/*.about {*/
+/*    padding: 40px;*/
+/*}*/
 
 .about .content-left h2 {
     font-size: 42px;
@@ -279,12 +284,12 @@ body {
 .contact .content-left ul li {
     font-size: 38px;
     display: inline-block;
-    margin-right: 40px;
 }
 
 .contact .content-left a {
     color: #fff;
     transition: all .2s ease;
+    margin-right: 40px;
 }
 
 .contact .content-left a:hover {
