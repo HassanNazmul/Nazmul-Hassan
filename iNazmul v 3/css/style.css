@@ -147,7 +147,6 @@ body {
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 1px;
-    text-align: center;
 }
 
 /*  RESUME  */
@@ -260,6 +259,21 @@ body {
 
 .portfolio .portfolio-img img:hover {
     transform: scale(1.15);
+}
+
+.portfolio .page {
+    font-size: 16px;
+    padding: 28px 15px 0 0;
+}
+
+.portfolio .page a {
+    color: #ff8c05;
+    text-transform: uppercase;
+}
+
+.portfolio .page a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 /*  CONTACT */
