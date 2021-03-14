@@ -51,6 +51,25 @@ body {
     text-transform: uppercase;
 }
 
+/*  RETURN TOP  */
+#return-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    background-color: #ff8c05;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+#return-button:hover {
+    transform: scale(1.15);
+}
+
 /*  NAVBAR  */
 .navbar {
     background: #262626;
