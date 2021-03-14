@@ -130,6 +130,12 @@ body {
     border-radius: 50%;
 }
 
+.home .content-right .profile-img img:hover {
+    transform: scale(1.15);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
 .home .content-right .profile-img-mob img {
     display: none;
 }
@@ -139,10 +145,6 @@ body {
 }
 
 /*  ABOUT   */
-/*.about {*/
-/*    padding: 40px;*/
-/*}*/
-
 .about .content-left h2 {
     font-size: 42px;
     font-weight: 900;
@@ -218,6 +220,7 @@ body {
 .skills .icon:hover {
     color: #fff;
     cursor: pointer;
+    transition: all 0.5s ease;
 }
 
 .skills .icon h3 {
@@ -247,6 +250,7 @@ body {
 .certificates .content-right .content .icon:hover {
     color: #fff;
     cursor: pointer;
+    transition: all 0.5s ease;
 }
 
 /*  PORTFOLIO   */
@@ -257,6 +261,7 @@ body {
 
 .portfolio .portfolio-img img:hover {
     transform: scale(1.15);
+    transition: all 0.5s ease;
 }
 
 .portfolio .page {
@@ -272,6 +277,7 @@ body {
 .portfolio .page a:hover {
     color: #fff;
     text-decoration: none;
+    transition: all 0.5s ease;
 }
 
 /*  CONTACT */
@@ -294,6 +300,7 @@ body {
 
 .contact .content-left a:hover {
     color: #ff8c05;
+    transition: all 0.5s ease;
 }
 
 .contact .content-right .row {
@@ -352,4 +359,5 @@ body {
 
 #return-button:hover {
     transform: scale(1.15);
+    transition: all 0.5s ease;
 }

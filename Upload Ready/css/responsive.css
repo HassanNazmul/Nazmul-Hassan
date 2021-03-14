@@ -1,0 +1,324 @@
+/*  DEVICE RESPONSIVE   */
+@media (max-width: 768px) {
+
+    .section-title {
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+        font-weight: 500;
+        color: #ff8c05;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .sub-title {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .sub-title h3 {
+        font-size: 26px;
+        font-weight: 300;
+        color: #ff8c05;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .gap {
+        padding: 8px 0;
+    }
+
+    .home .content-left {
+        text-align: center;
+    }
+
+    .home .content-left span {
+        font-size: 26px;
+        padding-top: 38px;
+    }
+
+    .home .content-left h2 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .home .content-left button {
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 30px;
+    }
+
+    .home .content-right .profile-img-mob img {
+        display: inline;
+        width: 40%;
+        border-radius: 50%;
+        padding-top: 8px;
+    }
+
+    .home .content-right .profile-img-mob {
+        text-align: center;
+    }
+
+    .home .content-right .profile-img-mob {
+        filter: drop-shadow(-3px 17px 8px rgba(0, 0, 0, 0.3));
+    }
+
+    .home .content-right .profile-img img {
+        display: none;
+    }
+
+    .about .content-left h2 {
+        text-align: center;
+        font-size: 38px;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+
+    .about .content-right p {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .resume .content-left .content h2 {
+        font-size: 38px;
+        font-weight: 900;
+    }
+
+    .timeline li {
+        margin-bottom: 30px;
+        padding-left: 20px;
+    }
+
+    .timeline li h4 {
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+
+    .timeline li span {
+        font-weight: 700;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .skills .icon {
+        font-size: 12px;
+    }
+
+    .skills .icon h3 {
+        color: #fff;
+        font-size: 12px;
+        padding: 20px 0;
+    }
+
+    .certificates .content-left .content h2 {
+        font-size: 38px;
+        font-weight: 900;
+    }
+
+    .certificates .icon {
+        font-size: 12px;
+    }
+
+    .portfolio .portfolio-img img {
+        width: 100%;
+        transition: transform .2s;
+        padding: 10px 0;
+    }
+
+    .hire-me .content-right {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .contact .content-left h2 {
+        font-size: 38px;
+    }
+
+    .contact .content-left a {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .section-title {
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .section-title h2 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #ff8c05;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .sub-title {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .sub-title h3 {
+        font-size: 16px;
+        font-weight: 300;
+        color: #ff8c05;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .gap {
+        padding: 8px 0;
+    }
+
+    .home .content-left {
+        text-align: center;
+    }
+
+    .home .content-left span {
+        font-size: 22px;
+        padding-top: 38px;
+    }
+
+    .home .content-left h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .home .content-left button {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 30px;
+    }
+
+    .home .content-left #cv {
+        display: none;
+    }
+
+    .home .content-right .profile-img-mob img {
+        display: inline;
+        width: 67%;
+        border-radius: 50%;
+        padding-top: 8px;
+    }
+
+    .home .content-right .profile-img-mob {
+        text-align: center;
+    }
+
+    .home .content-right .profile-img-mob {
+        filter: drop-shadow(-3px 17px 8px rgba(0, 0, 0, 0.3));
+    }
+
+    .home .content-right .profile-img img {
+        display: none;
+    }
+
+    .about .content-left h2 {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+
+    .about .content-right p {
+        font-size: 12px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .resume .content-left .content h2 {
+        font-size: 26px;
+        font-weight: 900;
+    }
+
+    .timeline li {
+        margin-bottom: 30px;
+        padding-left: 2px;
+    }
+
+    .timeline li h4 {
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .timeline li span {
+        font-weight: 700;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+
+    .skills .icon {
+        font-size: 11px;
+    }
+
+    .skills .icon h3 {
+        color: #fff;
+        font-size: 12px;
+        padding: 20px 0;
+    }
+
+    .certificates .content-left .content h2 {
+        font-size: 26px;
+        font-weight: 900;
+    }
+
+    .certificates .icon {
+        font-size: 11px;
+    }
+
+    .portfolio .portfolio-img img {
+        width: 100%;
+        transition: transform .2s;
+        padding: 10px 0;
+    }
+
+    .portfolio .website-link a {
+        font-size: 18px;
+    }
+
+    .portfolio .content-right .sub-title {
+        padding-top: 30px;
+    }
+
+    .hire-me .content-left h2 {
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    .hire-me .content-right button {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 12px 38px;
+    }
+
+    .contact .content-left h2 {
+        font-size: 28px;
+    }
+
+    .contact .content-left a {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+
+    .footer p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+}
