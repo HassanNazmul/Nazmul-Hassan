@@ -129,7 +129,6 @@ body {
     font-weight: 300;
     color: #fff;
     letter-spacing: 1px;
-    padding-left: 40px;
     padding-top: 80px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -138,7 +137,6 @@ body {
 .portfolio .website-link a {
     font-size: 22px;
     font-weight: 300;
-    padding: 40px;
     color: #ff8c05;
     letter-spacing: 1px;
     text-transform: uppercase;
